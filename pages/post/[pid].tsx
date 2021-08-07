@@ -1,6 +1,6 @@
 import { GetServerSideProps } from "next";
 import Image from "next/image";
-import { Post as PostType } from "../../Model/posts";
+import { Post as PostType } from "../../model/posts";
 import userAvatar from "../../assets/avatar-svgrepo-com.svg";
 const Post = (props: { post: PostType }) => {
   const {

@@ -1,6 +1,6 @@
 import { GetServerSideProps } from "next";
 import Post from "../components/Post";
-import { Post as PostType } from "../Model/posts";
+import { Post as PostType } from "../model/posts";
 
 const Posts = (props: { data: PostType[] }) => {
   const data = props.data;

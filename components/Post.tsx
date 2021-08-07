@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import userAvatar from "../assets/avatar-svgrepo-com.svg";
-import { Post as PostType } from "../Model/posts";
+import { Post as PostType } from "../model/posts";
 
 const Post = (props: PostType) => {
   const { title, body, userId, id } = props;
